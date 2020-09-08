@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddKaryawan">
+
+    <RelativeLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="6dp"
+
+        tools:context=".AddKaryawan">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="Form Rekruitment" />
+
+
+        <EditText
+            android:id="@+id/edit_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:hint="Nama Lengkap" />
+
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_nama"
+            android:layout_marginBottom="20dp"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/edit_umur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_email"
+            android:layout_marginBottom="20dp"
+            android:hint="Umur" />
+
+        <EditText
+            android:id="@+id/edit_tgllahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_umur"
+            android:layout_marginBottom="20dp"
+            android:hint="Tanggal Lahir" />
+
+        <EditText
+            android:id="@+id/edit_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_tgllahir"
+            android:layout_marginBottom="20dp"
+            android:hint="Alamat" />
+
+        <EditText
+            android:id="@+id/edit_notlp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_alamat"
+            android:layout_marginBottom="20dp"
+            android:hint="No Telepon" />
+
+        <EditText
+            android:id="@+id/edit_jeniskelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_notlp"
+            android:layout_marginBottom="20dp"
+            android:hint="Jenis Kelamin" />
+
+        <EditText
+            android:id="@+id/edit_pendidikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_jeniskelamin"
+            android:layout_marginBottom="20dp"
+            android:hint="Pendidikan" />
+
+        <EditText
+            android:id="@+id/edit_pengalaman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_pendidikan"
+            android:layout_marginBottom="20dp"
+            android:hint="Pengalaman Bekerja" />
+
+        <EditText
+            android:id="@+id/edit_posisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_pengalaman"
+            android:layout_marginBottom="20dp"
+            android:hint="Posisi Bekerja" />
+
+        <EditText
+            android:id="@+id/edit_motivasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_posisi"
+            android:layout_marginBottom="20dp"
+            android:hint="Motivasi" />
+
+
+        <Button
+            android:id="@+id/simpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_motivasi"
+            android:layout_centerHorizontal="true"
+            android:text="Selanjutnya" />
+
+
+    </RelativeLayout>
+</ScrollView>

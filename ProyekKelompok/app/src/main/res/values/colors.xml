@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="biru">#0000FF</color>
+    <color name="Abu">#808080</color>
+    <color name="biru_dongker">#000080</color>
+    <color name="jingga">#FF7F00</color>
+    <color name="kuning">#FFFF00</color>
+    <color name="biru_laut">#00FFFF</color>
+    <color name="emas">#FFD700</color>
+    <color name="coklat">#964B00</color>
+    <color name="hijau">#00FF00</color>
+    <color name="merah">#FF0000</color>
+    <color name="beige">#F5F5DC</color>
+    <color name="black">#000000</color>
+    <color name="aquamarine">#7FFFD4</color>
+    <color name="cadetblue">#5F9EA0</color>
+    <color name="darkcian">#008B8B</color>
+    <color name="darkolivegreen">#556B2F</color>
+    <color name="goldenrod">#DAA520</color>
+    <color name="merahgelap">#B22222</color>
+    <color name="orangered">#FF4500</color>
+
+    <color name="putih">#FFFFFF</color>
+    <color name="warnabackground">#EDEDED</color>
+    <color name="background">#6495ED</color>
+    <color name="text">#707070</color>
+    <color name="textJuduldark">#222</color>
+
+    <color name="backgroundnamaakun">#EED0D0</color>
+    <color name="backgroundnamaakun2">#FFF0F0</color>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="layout_loading" type="id" />
+    <item name="listdaftar" type="id" />
+    <item name="item_click_support" type="id">16dp</item>
+</resources>

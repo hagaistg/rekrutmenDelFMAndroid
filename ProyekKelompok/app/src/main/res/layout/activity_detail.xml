@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailKaryawan">
+
+    <RelativeLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="6dp"
+
+        tools:context=".DetailKaryawan">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="Detail Form Rekruitment" />
+        <TextView
+            android:id="@+id/edit_id2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:text="No" />
+        <TextView
+            android:id="@+id/edit_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_id2"
+            android:hint="No" />
+        <TextView
+            android:id="@+id/edit_nama2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_id"
+            android:text="Nama Lengkap" />
+
+        <TextView
+            android:id="@+id/edit_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edit_nama2"
+            android:hint="Nama Lengkap" />
+
+        <TextView
+            android:id="@+id/edit_email2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_nama"
+            android:text="Email" />
+        <TextView
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_email2"
+            android:layout_marginBottom="20dp"
+            android:hint="Email" />
+        <TextView
+            android:id="@+id/edit_umur2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_email"
+            android:text="Umur" />
+
+        <TextView
+            android:id="@+id/edit_umur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_umur2"
+            android:layout_marginBottom="20dp"
+            android:hint="Umur" />
+        <TextView
+            android:id="@+id/edit_tgllahir2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_umur"
+            android:text="Tanggal Lahir" />
+
+        <TextView
+            android:id="@+id/edit_tgllahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_tgllahir2"
+            android:layout_marginBottom="20dp"
+            android:hint="Tanggal Lahir" />
+        <TextView
+            android:id="@+id/edit_alamat2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_tgllahir"
+            android:text="Alamat" />
+        <TextView
+            android:id="@+id/edit_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_alamat2"
+            android:layout_marginBottom="20dp"
+            android:hint="Alamat" />
+        <TextView
+            android:id="@+id/edit_notlp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_alamat"
+            android:text="No Telepon" />
+        <TextView
+            android:id="@+id/edit_notlp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_notlp2"
+            android:layout_marginBottom="20dp"
+            android:hint="No Telepon" />
+        <TextView
+            android:id="@+id/edit_jk2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_notlp"
+            android:text="Jenis Kelamin" />
+
+        <TextView
+            android:id="@+id/edit_jeniskelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_jk2"
+            android:layout_marginBottom="20dp"
+            android:hint="Jenis Kelamin" />
+        <TextView
+            android:id="@+id/edit_pendidikan2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_jeniskelamin"
+            android:text="Pendidikan" />
+
+
+        <TextView
+            android:id="@+id/edit_pendidikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_pendidikan2"
+            android:layout_marginBottom="20dp"
+            android:hint="Pendidikan" />
+        <TextView
+            android:id="@+id/edit_pengalaman2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_pendidikan"
+            android:text="Pengalaman Bekerja" />
+
+        <TextView
+            android:id="@+id/edit_pengalaman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_pengalaman2"
+            android:layout_marginBottom="20dp"
+            android:hint="Pengalaman Bekerja" />
+        <TextView
+            android:id="@+id/edit_posisi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_pengalaman"
+            android:text="Posisi" />
+
+
+        <TextView
+            android:id="@+id/edit_posisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_posisi2"
+            android:layout_marginBottom="20dp"
+            android:hint="Posisi Bekerja" />
+        <TextView
+            android:id="@+id/edit_motivasi2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_posisi"
+            android:text="Motivasi" />
+
+        <TextView
+            android:id="@+id/edit_motivasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_motivasi2"
+            android:layout_marginBottom="20dp"
+            android:hint="Motivasi" />
+
+
+        <Button
+            android:id="@+id/ubah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_motivasi"
+            android:layout_centerHorizontal="true"
+            android:text="Terima" />
+        <Button
+            android:id="@+id/hapus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ubah"
+            android:layout_centerHorizontal="true"
+            android:text="Hapus Data" />
+
+    </RelativeLayout>
+</ScrollView>

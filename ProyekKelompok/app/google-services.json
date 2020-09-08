@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "531465994116",
+    "firebase_url": "https://proyekkelompok-eee71.firebaseio.com",
+    "project_id": "proyekkelompok-eee71",
+    "storage_bucket": "proyekkelompok-eee71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531465994116:android:7aca552108352eea",
+        "android_client_info": {
+          "package_name": "com.example.user.proyekkelompok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531465994116-af4dcavkp10jh7a7h53qppp0daj5jbd5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.proyekkelompok",
+            "certificate_hash": "59fa6700473f54917aecb392947f7a760e2534b3"
+          }
+        },
+        {
+          "client_id": "531465994116-h003hv787e71cvt3ctfga7jbherd3kdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7Ghe46xFyhSgCVwYT5obDzbbCDhqV71k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531465994116-h003hv787e71cvt3ctfga7jbherd3kdl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
